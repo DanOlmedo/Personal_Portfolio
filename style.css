@@ -1,0 +1,35 @@
+:root{
+
+}
+
+body {
+    background-color: crimson;
+}
+
+header {
+    background-color: cadetblue;
+}
+
+#main1 {
+    background-color: burlywood;
+}
+
+#main1col1 {
+    background-color: chocolate;
+}
+
+#main1col2 {
+    background-color: cornflowerblue;
+}
+
+#main2 {
+    background-color:brown;
+}
+
+#carrousel {
+    height: 30rem;
+}
+
+#main3 {
+    background-color: coral;
+}

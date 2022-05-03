@@ -6,9 +6,12 @@ body {
 header {
     height: 7rem;
     background-color: cadetblue;
+    margin-top: -3rem;
 }
 
 header h1 {
+    position: relative;
+    top: 2rem;
     margin: 3rem;
     font-size: 3rem;
     font-weight: bold;
@@ -26,6 +29,7 @@ header h1 {
 
 #main1col1 a{
     color: white;
+    margin-top: 1rem;
 }
 
 #main1col2 {
@@ -48,11 +52,13 @@ header h1 {
     position: relative;
     left: 5%;
     background-color: aquamarine;
-    padding: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
 }
 
 #carrousel img {
     height: 25rem;
+    width: 90%;
 }
 
 #main3 {
@@ -62,9 +68,33 @@ header h1 {
 
 .card {
     margin: 1rem;
+    display: flex;
 }
 
 .card img {
     height: 4rem;
     width: 4rem;
+    position: relative;
+    left: 45%;
+    margin-top: 1rem;
+}
+
+.card h4 {
+    position: relative;
+    left: 42%;
+}
+
+.card p {
+    position: relative;
+    left: 35%;
+}
+
+#carouselright {
+    font-size: 2rem;
+    color: white;
+}
+
+#carouselleft { 
+   
+    color: white;
 }

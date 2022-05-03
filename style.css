@@ -86,6 +86,7 @@ header h1 {
     position: relative;
     left: 45%;
     margin-top: 1rem;
+    
 }
 
 .card h4 {
@@ -97,6 +98,7 @@ header h1 {
     position: relative;
     left: 35%;
 }
+
 
 #carouselright {
     font-size: 2rem;
@@ -158,23 +160,177 @@ header h1 {
     }
 }
 
+.tri1 {
+    position: relative;
+    left: -3rem;
+    animation: trim 3s linear alternate infinite 8s;
+    transform-origin: 0;
+}
+
 #tri1 {
-    fill: #F66B0E;
+    fill: var(--main4);
+    animation: tri1 6s linear alternate infinite 2s;
 }
 
 #tri2 {
-    fill: #d3f60e;
+    fill: var(--main4);
+    animation: tri2 6s linear alternate infinite 2s;
 }
 
 #tri3 {
-    fill: #48f60e;
+    fill: var(--main4);
+    animation: tri3 6s linear alternate infinite 2s;
 }
 
 #tri4 {
-    fill: #3c0ef6;
+    fill: var(--main2);
+    animation: tri4 6s linear alternate infinite 2s;
 }
 
-.tri1 {
-    position: relative;
-    left: -5rem;
+@keyframes tri1 {
+
+    0%{
+        transform-origin: 0;
+        transform: rotate(0);
+        fill: var(--main2); 
+    }
+    25%{
+        transform-origin: 0;
+        transform: rotate(0);
+        fill: var(--main3); 
+    }
+    50%{
+        transform-origin: 0;
+        transform: translateX(0);
+        fill: var(--main4); 
+    }
+    60% {
+        transform-origin: 0;
+        transform: translateX(0);
+        fill: var(--main3); 
+    }
+    75% {
+        transform-origin: 0;
+        transform: translateX(24%);
+        fill: var(--main2); 
+    }
+    100% {
+        transform-origin: 0;
+        transform: translateX(24%);
+        fill: var(--main3);   
+    }
+}
+
+@keyframes tri2 {
+
+    0%{
+        transform-origin: 0;
+        fill: var(--main3); 
+    }
+    25%{
+        transform-origin: 0;
+        transform: translateY(-57.5%) translateX(1%) rotate(60deg);
+        fill: var(--main4);
+    }
+    50%{
+        transform-origin: 0;
+        transform: translateY(-57.2%) translateX(1%) rotate(60deg);
+        fill: var(--main3);
+    }
+    60% {
+        transform-origin: 0;
+        transform: translateY(-57.2%) translateX(1%) rotate(60deg);
+        fill: var(--main2);
+    }
+    75% {
+        transform-origin: 0;
+        transform: translateY(-57.2%) translateX(25.5%) rotate(60deg);
+        fill: var(--main3);
+    }
+    100% {
+        transform-origin: 0;
+        transform: translateY(-57.2%) translateX(25.5%) rotate(60deg);
+        fill: var(--main4);  
+    }
+}
+
+@keyframes tri3 {
+
+    0%{
+        transform-origin: 0;
+        fill: var(--main4); 
+    }
+    25%{
+        transform-origin: 0;
+        transform: translateY(-57%) translateX(1%) rotate(60deg);
+        fill: var(--main2); 
+    }
+    50%{
+        transform-origin: 0;
+        transform: translateY(-57%) translateX(1%) rotate(60deg);
+        fill: var(--main3); 
+    }
+    60% {
+        transform-origin: 0;
+        transform: translateY(-57%) translateX(1%) rotate(60deg);
+        fill: var(--main4); 
+    }
+    75% {
+        transform-origin: 0;
+        transform: translateY(-57%) translateX(1%) rotate(60deg);
+        fill: var(--main2); 
+    }
+    100% {
+        transform-origin: 0;
+        transform: translateY(-57%) translateX(1%) rotate(60deg); 
+        fill: var(--main4);     
+    }
+}
+
+@keyframes tri4 {
+
+    0%{
+        transform: rotate(0);
+        transform-origin: 0;
+        fill: var(--main2); 
+    }   
+    25%{
+        transform-origin: 0;
+        transform: rotateX(180deg) translateY(13.4%);
+        fill: var(--main4); 
+    }
+    50%{
+        transform-origin: 0;
+        transform: rotateX(180deg) translateY(13.4%);
+        fill: var(--main3); 
+    }
+    60% {
+        transform-origin: 0;
+        transform: rotateX(180deg) translateY(13.4%);
+        fill: var(--main4); 
+    }
+    75% {
+        transform-origin: 0;
+        transform: rotateX(180deg) translateY(13.4%);
+        fill: var(--main3); 
+    }
+    100% {
+        transform-origin: 0;
+        transform: rotateX(180deg) translateY(13.4%);
+        fill: var(--main2);     
+    }
+}
+
+@keyframes trim {
+    0% {
+        transform-origin: 0;
+    }
+    50% {
+        transform-origin: 0;
+        transform: rotateX(180deg) translateY(10%); 
+    }
+    100%{
+        transform-origin: 0;
+    }
+    
 }

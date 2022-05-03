@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500"
+	 style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	#sq2{
+		fill: rgb(0,0,0);
+	}
+	#sq1{
+		fill: rgb(23, 105, 20);
+	}
+	#sq3{
+		fill: rgb(10, 8, 133);
+	}
+</style>
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+	</foreignObject>
+	<g i:extraneous="self">
+		<rect id="sq2" x="10" y="10" class="st0" width="230" height="230">
+			<animateTransform
+				attributeName="transform"
+                          attributeType="XML"
+                          type="translate"
+                          from="0"
+                          to="50%"
+                          dur="2s"
+						  repeatCount="indefinite"/>
+				</rect>
+		<rect id="sq3" x="10" y="255" class="st0" width="230" height="230"><animate attributeType="XML" attributeName="y" from="50%" to="0"
+        dur="5s" repeatCount="indefinite" begin="5"/></rect>
+		<rect id="sq1" x="255" y="10" class="st0" width="230" height="230"><animate attributeType="XML" attributeName="y" from="0" to="50%"
+        dur="5s" repeatCount="indefinite" begin="10" /></rect>
+	</g>
+</switch>
+
+</svg>

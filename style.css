@@ -376,3 +376,9 @@ header h1 {
         margin-right: 2rem;
     }
 }
+
+@media all and (display-mode: fullscreen) {
+    * {
+      padding: 0px;
+    }
+  }

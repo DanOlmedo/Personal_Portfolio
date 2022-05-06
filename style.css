@@ -334,3 +334,45 @@ header h1 {
     }
     
 }
+
+@media (max-width:550px){
+    header {
+        height: 15rem;
+        width: 90%;
+    }
+    .tri1 {
+        display: none;
+    }
+    #main1col2 {
+        margin: 0;
+        margin-bottom: 3rem;
+        padding: 0;
+        margin-left: -5rem;
+        width: 70%;
+    }
+    #carouselright {
+        display: none;
+    }
+    #carouselleft {
+        display: none;
+    }
+    #main2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #carrousel {
+        height: 15rem;
+        width: 90%;
+        margin-left: 5rem;
+    }
+    #carrousel img {
+        height: 8rem;
+        width: 90%;
+    }
+    .card p {
+        visibility: hidden;
+    }
+    .card {
+        margin-right: 2rem;
+    }
+}

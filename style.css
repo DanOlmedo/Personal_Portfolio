@@ -281,29 +281,24 @@ header h1 {
     
 }
 
-@media (max-width:550px){
+@media (max-width:450px){
     header {
-        height: 15rem;
-        width: 90%;
+        height: 24rem;
+        width: 100%;
     }
     .tri1 {
         display: none;
     }
+    .sqimg {
+        display: none;
+    }
     #main1col2 {
         margin: 0;
+        margin-top: 3rem;
         margin-bottom: 3rem;
         padding: 0;
         margin-left: -5rem;
         width: 70%;
-    }
-
-    #carouselleft {
-        display: none;
-    }
-
-    #main2 {
-        display: flex;
-        
     }
 
     #t1 {
@@ -313,28 +308,29 @@ header h1 {
 
     #carrousel {
         height: 15rem;
-        width: 90%;
-        margin-left: 5rem;
+        width: 100%;
+        margin-left: 4rem;
     }
-
-    #carrousel img {
-        height: 8rem;
-        width: 90%;
-    }
-    .card p {
+    .carousel-indicators {
         visibility: hidden;
     }
-
-    .card {
-        margin-right: 2rem;
+    .carousel-control-next {
+        visibility: hidden;
     }
+    .carousel-control-prev {
+        visibility: hidden;
+    }
+    #carrousel img {
+        height: 85%;
+        width: 100%;
+    }
+    .card *{
+        margin-right: 1.5rem;
+    }
+   
+    
 }
 
-@media all and (display-mode: fullscreen) {
-    * {
-      padding: 0px;
-    }
-  }
 
 .sqimg {
     transform: scale(0.7);

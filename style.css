@@ -1,3 +1,5 @@
+/* Main color variable declarations, styling for background and header */
+
 :root {
     --main1: #112B3C;
     --main2: #205375;
@@ -14,7 +16,6 @@ header {
     height: 7rem;
     margin-top: -3rem;
     background-image: url("./assets/images/Grid\(8x8\).svg");
-
 }
 
 header h1 {
@@ -26,17 +27,13 @@ header h1 {
     color: var(--main3);
 }
 
+/* Styling for brand statement and first row */
 
-#main1 {
-    
-}
-
-#main1col1 {
-    
+#main1col1 {   
     font-size: 1.5rem;
 }
 
-#main1col1 a{
+#main1col1 a {
     color: white;
     margin-top: 1rem;
 }
@@ -51,6 +48,8 @@ header h1 {
    background-color: var(--main2);
    padding-top: 4rem;
 }
+
+/* Styling for carrousel display */
 
 #carrousel {
     background-color: var(--main4);
@@ -68,8 +67,9 @@ header h1 {
     width: 90%;
 }
 
+/* Styling for card section */
+
 #main3 {
-   
     margin-top: 3rem;
 }
 
@@ -105,6 +105,8 @@ header h1 {
     justify-content: center;
     margin-bottom: 4rem;
 }
+
+/* Section for firt SVG coloring and animations */
 
 .tri1 {
     position: relative;
@@ -281,6 +283,8 @@ header h1 {
     
 }
 
+/* Media queries for mobile version */
+
 @media (max-width:450px){
     header {
         height: 24rem;
@@ -330,6 +334,7 @@ header h1 {
     
 }
 
+/* Style and animation for second SVG */
 
 .sqimg {
     transform: scale(0.7);

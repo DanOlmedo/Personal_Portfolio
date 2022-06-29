@@ -47,6 +47,7 @@ header h1 {
 #main2 {
    background-color: var(--main2);
    padding-top: 4rem;
+   display: grid;
 }
 
 /* Styling for carrousel display */
@@ -55,11 +56,12 @@ header h1 {
     background-color: var(--main4);
     height: 30rem;
     margin-bottom: 3rem;
-    width: 90%;
+    width: 60%;
     position: relative;
-    left: 5%;
+    left: 5rem;
     padding: 1.5rem;
     border-radius: 1rem;
+    margin-right: 5rem;
 }
 
 #carrousel img {
@@ -337,9 +339,10 @@ header h1 {
 /* Style and animation for second SVG */
 
 .sqimg {
-    transform: scale(0.7);
+    transform: scale(0.65);
     transform-origin: 250;
     animation: sqimg 15s ease-in-out infinite;
+    
 }
 
 #sq1 {

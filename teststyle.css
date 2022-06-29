@@ -1,0 +1,244 @@
+.container{
+    display: flex;
+}
+
+.container.fade{
+    transition: 5s;
+    margin-left: 50%;
+}
+
+.leftwall{
+    height: max-content;
+    width: max-content;
+}
+
+.leftwall:hover > #hello{
+    opacity: 1;
+}
+
+.leftwall:hover > #wlc{
+    opacity: 1;
+}
+
+.leftwall:hover > #hc{
+    opacity: 0;
+}
+
+.rightwall{
+    height: max-content;
+}
+
+.rightwall:hover > #dan{
+    opacity: 1;
+}
+
+.rightwall:hover > #hc2{
+    opacity: 0;
+}
+
+
+.vl{
+    position: absolute;
+    top: 0rem;
+    left: 39rem;
+    height: 28rem;
+    border-left: 4px solid black;
+
+}
+
+.hl{
+    height: 42.5rem;
+    border-left: 4px solid black;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(80deg);
+    position: relative;
+    top: 10rem;
+    left: 17.5rem;
+}
+
+.ll{
+    height: 53rem;
+    border-left: 4px solid black;
+    transform: rotate(290deg);
+    position: relative;
+    top: 10rem;
+    left: 63rem;
+}
+
+#fl{
+    font-size: 2rem;
+    max-width: 15rem;
+    transform: skew(0deg,350deg);
+    position: absolute;
+    top: 22rem;
+    left: 12rem;
+}
+
+#hello{
+   max-height: 3rem;
+    position: absolute;
+    font-size: 3rem;
+    top: 6rem;
+    left: 9rem;
+    transform: skew(0deg,350deg);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top:2rem;
+    margin-bottom: 0rem;
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+#wlc{
+    max-height: 8rem;
+    max-width: 5rem;
+     position: absolute;
+     font-size: 2rem;
+     top: 9.5rem;
+     left: 9rem;
+     transform: skew(0deg,350deg);
+     margin-left: 5rem;
+     margin-right: 5rem;
+     margin-top:2rem;
+     margin-bottom: 0rem;
+     opacity: 0;
+     transition: opacity 1000ms;
+ }
+ 
+ #wlc:hover{
+     opacity: 1;
+ }
+
+#hc{
+    position: absolute;
+    top: 4.5rem;
+    left: 5rem;
+    max-height: 15rem;
+    max-width: 24rem;
+    padding: 2rem;
+    transform: skew(0deg,350deg);
+}
+
+#hc{
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+
+#hc2{
+    max-height: 16rem;
+    box-shadow: 12px 12px 7px #ccc;
+    position: absolute;
+    top: 9rem;
+    left: 47.5rem;
+    -ms-transform: rotate(90deg);
+    transform: skew(0deg,20deg);
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+
+
+#dan{
+    font-size: 2.5rem;
+    position: absolute;
+    max-width: 10rem;
+    top: 9rem;
+    left: 56rem;
+    transform: skew(0deg,20deg);
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+#main{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 3.2rem;
+    max-width: 8rem;
+    transform: skew(0deg,20deg);
+    position: absolute;
+    top: 18rem;
+    left: 80rem;
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+
+#main:hover{
+    opacity: 0;
+}
+
+#main2{
+    text-decoration: none;
+    color: white;
+    background-image: url(./assets/images/hockney3.jpg);
+    background-size: 24rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 3.2rem;
+    max-width: 8rem;
+    transform: skew(0deg,20deg);
+    position: absolute;
+    top: 18rem;
+    left: 80rem;
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+#main2:hover{
+    opacity: 1;
+    background-image: url(./assets/images/hockney3.jpg);
+    background-size: 23rem;
+}
+
+#floor{
+    font-size: 3rem;
+    width: 10rem;
+    position: absolute;
+    top: 30rem;
+    left: 45rem;
+    transform: skew(70deg,350deg);
+}
+
+#gal{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    width: 12rem;
+    transform: skew(70deg,350deg);
+    position: absolute;
+    top: 38rem;
+    left: 12rem;
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+
+#gal:hover{
+    opacity: 0;
+}
+
+#gal2{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    width: 12rem;
+    transform: skew(70deg,350deg);
+    position: absolute;
+    top: 38rem;
+    left: 12rem;
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+#gal2:hover{
+    opacity: 1;  
+    background-image: url(./hockney4.jpg);
+    background-size: (5rem);
+}
